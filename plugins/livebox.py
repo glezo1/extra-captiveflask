@@ -18,15 +18,15 @@ import wifipumpkin3.core.utility.constants as C
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-class facebook(CaptiveTemplatePlugin):
+class livebox(CaptiveTemplatePlugin):
     meta = {
-        'Name'      : 'facebook',
+        'Name'      : 'livebox',
         'Version'   : '1.0',
-        'Description' : 'facebook account login page template',
-        'Author'    : 'mh4x0f',
-        "TemplatePath": C.TEMPLATES_FLASK + "templates/facebook",
-        "StaticPath": C.TEMPLATES_FLASK + "templates/facebook/static",
-        "Preview": "templates/facebook/preview.png",
+        'Description' : 'livebox router',
+        'Author'    : 'glezo1',
+        "TemplatePath": C.TEMPLATES_FLASK + "templates/livebox",
+        "StaticPath": C.TEMPLATES_FLASK + "templates/livebox/static",
+        "Preview": "templates/livebox/preview.png",
     }
 
     def __init__(self):
